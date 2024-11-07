@@ -1,6 +1,6 @@
 # eCommerce Sales Dashboard in Power BI
 
-This project demonstrates the creation of an **eCommerce Sales Dashboard** in Power BI. The dashboard visualizes key performance metrics, including **Year-to-Date (YTD) Sales**, **YTD Profit**, and **YTD Quantity** for the top 5 products in an eCommerce business.
+This project demonstrates the creation of an **eCommerce Sales Dashboard** in Power BI. The dashboard visualizes key performance metrics, including **Year-to-Date (YTD) Sales**, **YTD Profit**, and **YTD Quantity** 
 
 ## Project Overview
 
