@@ -24,23 +24,21 @@ The goal of this project is to build an interactive dashboard that helps monitor
 
 1. **Load the dataset into Power BI**:
    - Open Power BI Desktop and load the `ecommerce_sales_data.csv` file.
-   - Transform the data (if necessary) to ensure correct formats for columns like `Order Date`, `Product Name`, and `Sales Amount`.
+   - Transform the data (if necessary) to ensure correct formats.
 
 2. **Create YTD Calculations**:
-   - Use DAX (Data Analysis Expressions) to calculate the Year-to-Date (YTD) values:
-     - `YTD Sales = TOTALYTD(SUM('Sales'[Sales Amount]), 'Sales'[Order Date])`
-     - `YTD Profit = TOTALYTD(SUM('Sales'[Profit]), 'Sales'[Order Date])`
-     - `YTD Quantity = TOTALYTD(SUM('Sales'[Quantity]), 'Sales'[Order Date])`
+   - Use DAX (Data Analysis Expressions) to calculate the Year-to-Date (YTD) values.
 
 3. **Visualize Key Metrics**:
    - Create visualizations for:
      - **YTD Sales**: Use a card visualization or bar chart.
      - **YTD Profit**: Use a card visualization or bar chart.
-     - **Top 5 Products by YTD Quantity**: Create a bar chart with a filter to show the top 5 products.
+     - **YTD Qty**
+     - **YTD Profit Margin**
 
 4. **Design the Dashboard**:
    - Arrange the visualizations in a clean and interactive layout.
-   - Add slicers for filtering by product category, region, or time period.
+   - Add slicers for filtering by product category,Month, Shipping Type 
    - Include tooltips or drill-through capabilities to allow users to explore the data in more detail.
 
 5. **Publish the Dashboard**:
